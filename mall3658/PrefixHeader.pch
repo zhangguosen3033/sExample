@@ -1,0 +1,148 @@
+//
+//  PrefixHeader.pch
+//  mall3658
+//
+//  Created by yanglicheng-Leo on 15/7/2.
+//  Copyright (c) 2015年 Leo. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "CommenDef.h"
+#import "Toolkit.h"
+#import "APIUrl.h"
+#import "shop_header_content.h"
+
+#import "NSString+Common.h"
+
+#import "UIImage+Common.h"
+#import "UIButton+Bootstrap.h"
+#import "UIColor+expanded.h"
+#import "UIButton+Common.h"
+
+#import "UIImageView+Common.h"
+
+
+#import "UIBarButtonItem+Common.h"
+
+#import "NSURL+Common.h"
+
+
+#import "NSObject+ObjectMap.h"
+#import "MobClick.h"
+
+#import "UIImageView+WebCache.h"
+
+#import "NSObject+Common.h"
+
+#import "SVProgressHUD.h"
+
+#import "Global.h"
+
+
+//导入magicalrecord
+#define MR_SHORTHAND
+#import <MagicalRecord/MagicalRecord.h>
+//define this constant if you want to use Masonry without the 'mas_' prefix
+
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import "MBProgressHUD.h"
+#import "TableView.h"
+#import "ScrollView.h"
+#import "Masonry.h"
+#import <POP/POP.h>
+#import "TTTAttributedLabel.h"
+#import "AppDelegate.h"
+#import "Mall_APIManager.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#import "Enum.h"
+#import "Utility.h"
+//#import <PgySDK/PgyManager.h>
+#import "AAGlobalMacro.h" //折线图需要的
+#ifndef mall3658_PrefixHeader_pch
+#define mall3658_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  标注DEBUG模式
+ */
+#ifdef DEBUG
+#   define DLog(...) NSLog(__VA_ARGS__)
+#else
+#   define DLog(...)
+#endif
+
+//常用变量
+#define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+#define kTipAlert(_S_, ...)     [[[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:(_S_), ##__VA_ARGS__] delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil] show]
+
+#define kKeyWindow [UIApplication sharedApplication].keyWindow
+
+
+
+
+#if IsEnterprise == 1//企业版
+
+/**
+ *  企业版UmengAppkey
+ *
+ */
+#define UmengAppkey @"582d5842c62dca2913000ca5"
+/**
+ *  企业版高德地图Appkey
+ */
+#define GDMapAppkey @"3fbfd02359be66f44228177278fc7dc1"
+
+#else//AppStore版
+
+/**
+ *  App Store版高德地图Appkey
+ *
+ */
+#define GDMapAppkey @"b87cd6bf379c0e41c96421e3421ac138"
+/**
+ *  App Store版UmengAppkey
+ *
+ */
+#define UmengAppkey @"58a258c38f4a9d31eb0003f0"
+
+#endif
+
+///**
+// *  融云IMAppKey (生产环境下key)
+// *
+// */
+//#define KRongyunIMAppKey @"y745wfm848z2v"
+
+/**
+ *  融云IMAppKey (测试环境下key)
+ *
+ */
+//#define KRongyunIMAppKey @"sfci50a7c7hmi"
+
+
+/**
+ *   约定的系统消息的ID
+ */
+#define KRongyunSystem_Assistant_ID @"-0"
+/**
+ *   约定的群消息助手的ID
+ */
+#define KRongyunGroup_Assistant_ID @"-1"
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+typedef void(^YZHBlock)(id yzhObject);
+
+#define kContentAppCheck(v) [v containsString:@"appcheck=-"]//用于判断url链接是否包含appcheck=-
+
+#endif
+
+#endif

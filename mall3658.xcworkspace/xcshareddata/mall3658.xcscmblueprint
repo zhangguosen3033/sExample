@@ -1,0 +1,102 @@
+{
+<<<<<<< HEAD
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++3DDA017",
+=======
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++B3AE423",
+>>>>>>> 50c151ce5101785554a87fd459fa5f69e18056eb
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++994ACA7" : {
+
+    },
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++90EE7C7" : {
+
+    },
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++3139+++B3CD8F7" : {
+
+    },
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++F10871B" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++34F8C1C" : 0,
+    "F5D002FCBA636E2DAC1AE864C5BDEACF7059426D+++47028EF" : 0,
+<<<<<<< HEAD
+    "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++3DDA017" : 0,
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++994ACA7" : 0,
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++3139+++B3CD8F7" : 0,
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++F10871B" : 0,
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++90EE7C7" : 0
+=======
+    "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++B3AE423" : 0,
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++994ACA7" : 0,
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++3139+++B3CD8F7" : 0,
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++90EE7C7" : 0,
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++F10871B" : 0,
+    "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++34F8C1C" : 0
+>>>>>>> 50c151ce5101785554a87fd459fa5f69e18056eb
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CCC8E5E0-B330-4A53-9CAC-62399DA12690",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++34F8C1C" : "%E6%85%A7%E8%B5%9A%E5%AE%9D\/",
+    "F5D002FCBA636E2DAC1AE864C5BDEACF7059426D+++47028EF" : "3658mall\/",
+<<<<<<< HEAD
+    "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++3DDA017" : "smart\/",
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++994ACA7" : "%E6%85%A7%E8%B5%9A%E5%AE%9D\/mall3658\/mall3658\/image\/%E8%AE%A2%E5%8D%95%E8%AF%A6%E6%83%85\/",
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++3139+++B3CD8F7" : "3658mall\/mall3658\/mall3658\/image\/%E8%AE%A2%E5%8D%95%E8%AF%A6%E6%83%85\/",
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++F10871B" : "3658mall\/mall3658\/mall3658\/image\/%E8%AE%A2%E5%8D%95%E8%AF%84%E4%BB%B7\/",
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++90EE7C7" : "3658mall\/mall3658\/mall3658\/image\/%E8%AE%A2%E5%8D%95%E8%AF%84%E4%BB%B7\/"
+=======
+    "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++B3AE423" : "SmartProfit\/",
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++994ACA7" : "%E6%85%A7%E8%B5%9A%E5%AE%9D\/mall3658\/mall3658\/image\/%E8%AE%A2%E5%8D%95%E8%AF%A6%E6%83%85\/",
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++3139+++B3CD8F7" : "3658mall\/mall3658\/mall3658\/image\/%E8%AE%A2%E5%8D%95%E8%AF%A6%E6%83%85\/",
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++90EE7C7" : "3658mall\/mall3658\/mall3658\/image\/%E8%AE%A2%E5%8D%95%E8%AF%84%E4%BB%B7\/",
+    "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++F10871B" : "3658mall\/mall3658\/mall3658\/image\/%E8%AE%A2%E5%8D%95%E8%AF%84%E4%BB%B7\/",
+    "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++34F8C1C" : "%E6%85%A7%E8%B5%9A%E5%AE%9D\/"
+>>>>>>> 50c151ce5101785554a87fd459fa5f69e18056eb
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "mall3658",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "mall3658\/mall3658.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/yanglicheng8\/SmartProfit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++34F8C1C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/yanglicheng8\/SmartProfit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+<<<<<<< HEAD
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++3DDA017"
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42A0FE1F6A29B4BB2C20B15660FB278E29870DFC+++B3AE423"
+>>>>>>> 50c151ce5101785554a87fd459fa5f69e18056eb
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/yanglicheng8\/3658mall.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5D002FCBA636E2DAC1AE864C5BDEACF7059426D+++47028EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/115.28.54.92\/svn\/3658mallui",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "cb5c9caf-ea22-7f44-89f1-cdfa60874482++3139+++B3CD8F7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/115.28.54.92\/svn\/3658mallui",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++90EE7C7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/115.28.54.92\/svn\/3658mallui",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++994ACA7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/115.28.54.92\/svn\/3658mallui",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "cb5c9caf-ea22-7f44-89f1-cdfa60874482++5614+++F10871B"
+    }
+  ]
+}
